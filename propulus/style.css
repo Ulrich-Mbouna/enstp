@@ -106,9 +106,6 @@ body {
 }
 
 @media (max-width: 991px) {
-	.one-left, .top-right, .top-left, .one-right {
-		display: none !important;
-	}
 	
 	.header .topbar {
     position: fixed !important;
