@@ -206,10 +206,25 @@ header .top-right ul.social {
     list-style: none;
 }
 
+footer .social a {
+    display: block;
+    height: 34px;
+    width: 34px;
+    line-height: 37px;
+    background: rgba(69, 69, 69, 0.5);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+}
+
 #menu ul li a {
     font-size: 1.1rem;
     font-family: "Rajdhani",sans-serif;
     font-weight: 600;
+}
+.ES-liner ul a{
+    text-decoration: none;
 }
 
 /* ============ only desktop view ============ */
@@ -262,4 +277,12 @@ header .top-right ul.social {
 .actualite_aside {
     box-shadow: 0px 4px 2px 0px #ffc107;
     border-radius : 5px;
+}
+.copyright
+{
+    background-color: #feba01;
+}
+.copyright .row
+{
+    margin-right: 0;
 }

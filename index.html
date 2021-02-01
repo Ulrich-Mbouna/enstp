@@ -11,7 +11,10 @@
     <link rel="stylesheet" id="Owl2-css" href="assets/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/propulus.min.css">
+    <link rel="stylesheet" href="protulus/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="propulus/style.css">
     <title>ENSTP</title>
 </head>
 <body>
@@ -26,7 +29,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6 top-center justify-content-end">
+                    <div class="col-md-6 col-10 top-center justify-content-end">
                         <div class="col-md-6"></div>
                         <div class="col-md-3">
                             <div class="searchbar mt-1">
@@ -36,9 +39,17 @@
                             </div>
                         </div>
                         <div class="col-md-3 top-right">
-                            <ul class="d-flex list-unstyled network_header social">
-                                <li class="mr-2"><a href=""><i class="fab fa-facebook-f fa-lg"></i></a></li>
-                                <li><a href=""><i class="fab fa-youtube fa-lg"></i></a></li>
+                            <ul class="social list-unstyled d-flex justify-content-center">
+                                <li class="mr-2">
+                                    <a class="font-15 btn-facebook" title="https://www.facebook.com/people/Coop-Enstp-Padoue-Padoue/100011489655575" href="https://www.facebook.com/people/Coop-Enstp-Padoue-Padoue/100011489655575" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="font-15" title="https://www.youtube.com/channel/UCHWqxsa6kdpGZWROv1weChw" href="https://www.youtube.com/channel/UCHWqxsa6kdpGZWROv1weChw" target="_blank">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div class="col-2">
@@ -163,11 +174,11 @@
                 </div>
             </div>
         </section>
-        <section class="bg-LIGHT" id="description-enstp">
+        <section class="bg-LIGHT home-news" id="description-enstp">
             <div class="container">
-            <h4 class="text-center text-uppercase font-weight-bold mb-3">L'ENSTP,L'ECOLE QUI FORME</h4>
+            <h1 class="text-center text-uppercase font-weight-bold mb-3">L'ENSTP,L'ECOLE QUI FORME</h1>
                 <div class="row">
-                    <div class="col-12 col-lg-6">
+                    <div id="EN-content" class="col-12 col-lg-6">
                         <h5 class="text-left text-uppercase font-weight-bold">Nos Diplomes</h5>
                         <p class="p-resume-diploma text-justify font-16">
                             Les diplômes obtenus après votre cursus à l’ENSTP une fois diplômé 
@@ -177,9 +188,9 @@
                             Vous êtes l’ambassadeur de l’Ecole Nationale Supérieure des Travaux Publics.
                         </p>
                     </div>
-                    <div class="col-12 col-lg-6">
-                        <div class="">
-                            <ul class="diploma-idiomas">
+                    <div id="EN-menu" class="col-12 col-lg-6">
+                        <div class="ES-liner">
+                            <ul class="list-unstyled diploma-idiomas">
                                 <li class="font-16">
                                     <a href="https://enstp.cm/fr/training/master-en-management-dingenierie-mi/">
                                         <span class="es-icon icon-protulus-icon-architect"></span>
@@ -189,8 +200,7 @@
                                 <li class="font-16">
                                     <a href="https://enstp.cm/fr/training/masters-specialises-ms/">
                                         <span class="es-icon icon-protulus-icon-laureat"></span>
-                                        <em class="es-icon2 icon-protulus-icon-fleche"></em>Masters Spécialisés (MS)
-                                    </a>
+                                        <em class="es-icon2 icon-protulus-icon-fleche"></em>Masters Spécialisés (MS)</a>
                                 </li>
                                 <li class="font-16">
                                     <a href="https://enstp.cm/fr/training/cycle-de-techniciens-superieurs-ts/">
@@ -206,7 +216,8 @@
                                 </li>
                                 <li class="font-16">
                                     <a href="https://enstp.cm/fr/training/cycle-des-techniciens-t-2/">
-                                        <span class="es-icon icon-protulus-icon-engineer"></span><em class="es-icon2 icon-protulus-icon-fleche"></em>Cycle des Techniciens (T)
+                                        <span class="es-icon icon-protulus-icon-engineer"></span>
+                                        <em class="es-icon2 icon-protulus-icon-fleche"></em>Cycle des Techniciens (T)
                                     </a>
                                 </li>
                             </ul>
@@ -216,7 +227,7 @@
             </div>
         </section>
         <section class="section-media">
-            <h4 class="text-center">VIE SUR LE CAMPUS</h4>
+            <h1 class="text-center text-upper font-weight-bold m-4">VIE SUR LE CAMPUS</h1>
             <div class="bg-warning">
                 <div class="container">
                     <div class="row">
@@ -280,7 +291,7 @@
         </section>
         <section id="partner" class="p-4">
             <div class="container">
-                <h4 class="text-center text-uppercase">Nos Partenaires</h4>
+                <h1 class="text-center font-weight-bold text-uppercase">Nos Partenaires</h1>
                 <div class="row" id="EN-partenaire">
                     <div class="col-12">
                         <div class="owl-carousel owl-theme">
@@ -311,7 +322,7 @@
         </section>
         <section class="" id="environment">
             <div class="container">
-                <h4 class="text-center text-uppercase p-4">Notre Cadre</h4>
+                <h1 class="text-center text-uppercase font-weight-bold p-4">Notre Cadre</h1>
                 <div class="row">
                     <div class="col-md-3">
                         <div id="EN-images">
@@ -388,17 +399,17 @@
                             </ul>
                         </div>
                         <ul class="social list-unstyled d-flex justify-content-center">
-                        <li class="mr-2">
-                            <a class="font-15 btn-facebook" title="https://www.facebook.com/people/Coop-Enstp-Padoue-Padoue/100011489655575" href="https://www.facebook.com/people/Coop-Enstp-Padoue-Padoue/100011489655575" target="_blank">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
+                            <li class="mr-2">
+                                <a class="font-15 btn-facebook" title="https://www.facebook.com/people/Coop-Enstp-Padoue-Padoue/100011489655575" href="https://www.facebook.com/people/Coop-Enstp-Padoue-Padoue/100011489655575" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
                             <a class="font-15" title="https://www.youtube.com/channel/UCHWqxsa6kdpGZWROv1weChw" href="https://www.youtube.com/channel/UCHWqxsa6kdpGZWROv1weChw" target="_blank">
                                 <i class="fab fa-youtube"></i>
                             </a>
                         </li>
-                    </ul>
+                        </ul>
                     </div>
                     <p style="overflow: auto; position: fixed; height: 0pt; width: 0pt">
                         <a href="https://www.egehurriyet.com/">izmir escort</a>
@@ -483,9 +494,7 @@
         </footer>
         <div class="copyright">
             <div class="row ">
-                <div class="col bg-warning">
-                    <p class="text-center">© 2021 — Ecole Nationale Supérieure des Travaux Publics</p>
-                </div>
+                <div class="col"><p class="text-center m-2 font-weight-bold" >&copy; 2021 - Ecole National Supérieure des Travaux Publics</p></div>
             </div>
         </div>
     </div>
